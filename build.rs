@@ -21,6 +21,7 @@ fn main() {
             "GL_ARB_program_interface_query",
             "GL_EXT_texture_compression_s3tc",
             "GL_EXT_texture_sRGB",
+            "GL_OES_EGL_image",
         ],
     )
     .write_bindings(gl_generator::StructGenerator, &mut file)
